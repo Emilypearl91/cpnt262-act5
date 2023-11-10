@@ -1,19 +1,22 @@
+<script>
+  import Card from "../lib/components/Card.svelte";
+</script>
 <nav>
   <ul>
-     <li><a href="/">link</a></li>
-    <li><a href="/">link</a></li>
-    <li><a href="/">link</a></li>
-    <li><a href="/">link</a></li>
+     <li><a href="/">Home</a></li>
+    <li><a href="/">Blog</a></li>
+    <li><a href="/">About Me</a></li>
   </ul>
 </nav>
 
+<Card></Card>
 
 <main>
   <footer>
     <ul>
-      <li><a href="/">link</a></li>
-      <li><a href="/">link</a></li>
-      <li><a href="/">link</a></li>
+      <li><a href="/">Facebook</a></li>
+      <li><a href="/">Instagram</a></li>
+      <li><a href="/">Twitter</a></li>
     </ul>
     <p>© 2023 Emily Seafoot</p>
  </footer>
